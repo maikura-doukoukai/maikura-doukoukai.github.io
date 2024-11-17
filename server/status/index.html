@@ -1,1 +1,62 @@
+<!DOCTYPE HTML>
 
+<html>
+  <html lang="ja">
+  <link rel="stylesheet" href="https://eitoweb.github.io/style.css">
+  <link rel="stylesheet" href="./style.css">
+    
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>マインクラフトサーバー</title>
+  </head>
+
+  <header>
+   <h3>マインクラフトサーバー</h3>
+  </header>
+    
+  <nav>
+  <hr>
+  <h1><span id="real-time"></span> 現在、すべてのサービスが正常に稼働しています</h1>
+
+  <script type="text/javascript">
+function Time() {
+   var realTime = new Date();
+   var hour = realTime.getHours();
+   var minutes  = realTime.getMinutes();
+   var seconds  = realTime.getSeconds();
+   var text = hour + ":" + minutes + ":" + seconds;
+   document.getElementById("real-time").innerHTML = text;
+}
+setInterval('Time()',1000);
+  </script>
+    <hr>
+    <h3>🟢</h3>
+    <h3>アツクラ</h3>
+    <p>正常に稼働しています</p>
+    <hr>
+    <hr>
+    <h3>🟢</h3>
+    <h3>クリエサーバー</h3>
+    <p>正常に稼働しています</p>
+    <hr>
+    <hr>
+    <h3>🟢</h3>
+    <h3>SSNサーバー</h3>
+    <p>正常に稼働しています</p>
+    <hr>
+  </nav>
+
+  <main>
+
+  </main>
+    
+  <aside>
+    
+  </aside>
+    
+  <footer>
+    
+  </footer>
+    
+  </html>
